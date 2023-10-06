@@ -11,7 +11,7 @@ export const revalidate = 0;
 
 export async function GET() {
     try {
-        connectToDB();
+        await connectToDB();
 
         // fetching all products
 
