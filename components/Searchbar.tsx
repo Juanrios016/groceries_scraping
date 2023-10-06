@@ -9,9 +9,9 @@ const isValidAmazonProductURl = (url: string) => {
     const hostname = parseURL.hostname;
 
     if (
-      hostname.includes("samsclub.com") ||
-      hostname.includes("samsclub.") ||
-      hostname.endsWith("samsclub")
+      hostname.includes("amazon.com") ||
+      hostname.includes("amazon.") ||
+      hostname.endsWith("amazon")
     ) {
       return true;
     }
